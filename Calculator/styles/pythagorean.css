@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(80deg, #4b528f, #a45689);
+}
+
+#container {
+  font-size: 24px;
+  background-color: #eee;
+  box-shadow: 2px 2px 2px #000;
+  border-radius: 30px;
+  text-align: center;
+  padding: 30px 20px;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-side {
+  margin: 20px;
+}
+.section-side input {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+.section-side .span-side {
+  font-weight: 700;
+}
+.section-side .btn-side {
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.btn-restart {
+  padding: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.return-to-main-site a {
+  text-decoration: none;
+  color: #000;
+}
+.return-to-main-site a:hover {
+  opacity: 0.7;
+}
+
+/* DELETE ARROWS IN INPUT */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}/*# sourceMappingURL=pythagorean.css.map */

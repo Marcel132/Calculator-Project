@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator - Standardowy kalkulator</title>
+
+    <link rel="stylesheet" href="styles/stanCalc.css">
+
+</head>
+<body>
+
+    <main>
+        <div id="container">
+            <div id="head-box">
+                <header>
+                    <h2>Standardowy kalkulator!</h2>
+                </header>
+            </div>
+            <div class="section-side">
+                <input type="number" id="inputNumber">
+                <div id="calc-box">
+                    <button type="button" class="btn-operators" id="btn-add">+</button>
+                    <button type="button" class="btn-operators" id="btn-subtract">-</button>
+                    <button type="button" class="btn-operators" id="btn-multiply">*</button>
+                    <button type="button" class="btn-operators" id="btn-divide">/</button>
+                    <button type="button" class="btn-operators" id="btn-exponent">^</button>
+                </div>
+                <button type="button" class="btn-restart" id="btn-restart">RESTART</button>
+                <div id="results">
+                    <h2 id="current-calculation">0</h2>
+                    <h2>Wynik: <span id="current-results">0</span></h2>
+                </div>
+            </div>
+            <div class="return-to-main-site"><a href="index.html">Strona Głowna</a></div>
+        </div>
+    </main>
+
+    <script src="assets/scripts/stanCalc.js"></script>
+</html>

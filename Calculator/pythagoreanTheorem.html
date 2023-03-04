@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator - Tw. Pitagorasa</title>
+
+    <link rel="stylesheet" href="styles/pythagorean.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="wrapper">
+                <div id="header-box">
+                    <h2>Tutaj możesz policzyć trzeci bok w trójkącie prostokątnym!</h2>
+                </div>
+                <div class="section-side">
+                    <span class="span-side">c = <span id="resultSideC">0.00</span></span><span><br></span><input type="number" id="inputNumberFive" placeholder="Bok A"> <span></span><input type="number" id="inputNumberSix" placeholder="Bok B"><button type="button" class="btn-side" id="btn-sideC">Policz bok C</button>
+                </div>
+                <div class="section-side">
+                    <span class="span-side">a = <span id="resultSideA">0.00</span></span><span><br></span><input type="number" id="inputNumberOne" placeholder="Bok C"> <span></span><input type="number" id="inputNumberTwo" placeholder="Bok B"><button type="button" class="btn-side" id="btn-sideA">Policz bok A</button>
+                </div>
+                <div class="section-side">
+                    <span class="span-side">b = <span id="resultSideB">0.00</span></span><span><br></span><input type="number" id="inputNumberThree" placeholder="Bok C"> <span></span><input type="number" id="inputNumberFour" placeholder="Bok A"><button type="button" class="btn-side" id="btn-sideB">Policz bok B</button>
+                </div>
+                
+                <div id="footer-wrapper">
+                    <button type="button" class="btn-restart" id="btn-restart">RESTART</button>
+                    <div class="return-to-main-site"><a href="index.html">Strona Główna</a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/scripts/pythagorean.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator - przelicznik miar</title>
+
+    <link rel="stylesheet" href="styles/angularMeasure.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="wrapper">
+                <div id="header-box">
+                    <h2>Tutaj możesz przeliczyć miary kątowe!</h2>
+                </div>
+                <div class="section-side">
+                    <div class="measures">
+                        <input type="number" id="userInputAng" placeholder="Podaj miarę w stopniach"> <button type="button" class="btn-side" id="btn-angMeasure">Policz</button> <br>
+                        <span class="result-measure">Miara gradowa:</span> <span id="angToHailResult">0</span> <br>
+                        <span class="result-measure">Miara radianowa:</span> <span id="angToRadResult">0</span>
+                    </div>
+                </div>
+                <div class="section-side">
+                    <div class="measures">
+                        <input type="number" id="userInputHail" placeholder="Podaj miarę w gradach"> <button type="button" class="btn-side" id="btn-hailMeasure">Policz</button> <br>
+                        <span class="result-measure">Miara stopniowa:</span> <span id="hailToAngResult">0</span> <br>
+                        <span class="result-measure">Miara radianowa:</span> <span id="hailToRadResult">0</span>
+                    </div>
+                </div>
+                <div class="section-side">
+                    <div class="measures">
+                        <input type="number" id="userInputRad" placeholder="Podaj miarę w radianach"> <button type="button" class="btn-side" id="btn-radMeasure">Policz</button> <br>
+                        <span class="result-measure">Miara stopniowa:</span> <span id="radToAngResult">0</span> <br>
+                        <span class="result-measure">Miara gradowa:</span> <span id="radToHailResult">0</span>
+                    </div>
+                </div>
+                <div id="footer-wrapper">
+                    <button type="button" class="btn-restart" id="btn-restart">RESTART</button>
+                    <div class="return-to-main-site"><a href="index.html">Strona Główna</a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/scripts/angularMeasure.js"></script>
+</body>
+</html>
